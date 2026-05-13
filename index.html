@@ -12,8 +12,16 @@
   <input type="text" name="q" placeholder="Search already">
   <button type="submit">Search Google</button>
 </form>
+<!-- 1. Name your iframe -->
+<iframe name="myFrame" src="initial-page.html" width="500" height="300"></iframe>
+
+<!-- 2. Set the link's target to that name -->
+<a href="https://wikipedia.org" target="myFrame">
+  <button>Load Wikipedia</button>
+</a>
+
 <button>I am very useful</button>
-<button type="button" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">I'm never gonna give this button up</button>
+
 
 </body>
 </html>
